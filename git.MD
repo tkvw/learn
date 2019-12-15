@@ -24,6 +24,18 @@ git config --global user.signkey <signkey>
 git commit -S -am "<message>"
 ```
 
+## Specify pgp program 
+
+```
+where gpg
+git config --global gpg.progam <path>
+```
+
+## Set sign on each commit 
+```
+git config --global commit.gpgsign true
+```
+
 ## SSH 
 
 ```
