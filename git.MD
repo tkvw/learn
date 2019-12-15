@@ -1,5 +1,33 @@
 GIT
 
+## Config 
+
+```
+# Display all configuration values 
+git config -l
+
+# Set username and email
+git config user.name "Dennie de Lange"
+git config user.email "dennie@xxx.nl"
+```
+
+## Signing commits 
+
+```
+gpg --list-secret-keys --keyid-format LONG
+git config --global user.signkey <signkey>
+```
+
+## SSH 
+
+```
+ssh-keygen -t rsa -b 4096 -C "dennie@xxx.nl"
+```
+
+https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+  
+
+
 Handige links:
 * http://backlogtool.com/git-guide/en/
 * http://git-scm.com/doc
