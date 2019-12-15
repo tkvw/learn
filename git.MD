@@ -18,6 +18,12 @@ gpg --list-secret-keys --keyid-format LONG
 git config --global user.signkey <signkey>
 ```
 
+## Commit with signing
+
+```
+git commit -S -am "<message>"
+```
+
 ## SSH 
 
 ```
